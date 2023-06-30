@@ -1,0 +1,19 @@
+        @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Caprasimo&family=Josefin+Sans&family=Oswald&display=swap');
+
+        .vertical-align {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        input[type="text"] {
+            font-family: 'Agdasima', sans-serif;
+            font-size: 50px;
+        }
+
+        #buttons {
+            font-family: 'Oswald', sans-serif;
+            font-size: 35px;
+        }
