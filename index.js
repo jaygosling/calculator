@@ -44,7 +44,7 @@ function handleButtons(e) {
             }
             break;
         case 'C':
-            if (currentNumber) currentNumber = currentNumber.replace(/[0-9]$/, '');
+            if (currentNumber) currentNumber = currentNumber.replace(/.$/, '');
             else operation.pop();
             if (currentNumber == '' && !operation[0]) currentNumber = 0;
             break;
